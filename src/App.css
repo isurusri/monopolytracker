@@ -1,0 +1,46 @@
+.App {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: linear-gradient(
+    to bottom,
+    #250505,
+    #fff
+  ); /* Dark background color for the entire app */
+  color: #fff; /* White text color */
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2); /* Updated shadow color for the entire app */
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+h1 {
+  color: #d71a28; /* Monopoly red for headings */
+}
+
+.container {
+  background-color: #333; /* Dark background color for the container */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1),
+    0 4px 8px rgba(255, 255, 255, 0.1); /* Updated shadow colors for container */
+}
+
+.form-control {
+  margin-bottom: 15px;
+}
+
+.form-select {
+  margin-bottom: 15px;
+}
+
+.btn-success {
+  background-color: #4caf50; /* Updated green color for success buttons */
+  border-color: #388e3c; /* Darker green for button border */
+  color: #fff; /* White text color */
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1); /* Updated shadow color for the button */
+}
+
+.btn-success:hover {
+  background-color: #388e3c; /* Darker green on hover */
+}
